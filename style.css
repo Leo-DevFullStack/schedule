@@ -26,4 +26,15 @@ body {
     width: 100%;
     max-width: 400px;
     box-sizing: border-box;
-}   
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+}
