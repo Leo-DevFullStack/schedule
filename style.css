@@ -38,3 +38,15 @@ form {
     flex-direction: column;
     font-weight: 700;
 }
+
+label {
+    margin-top: 10px;
+    color: black;
+}
+
+input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid slateblue;
+    border-radius: 4px;
+}
