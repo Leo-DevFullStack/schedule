@@ -10,3 +10,15 @@ document.getElementById('taskForm').addEventListener('submit', async function(e)
         periodo,
         tipo
     };
+
+    try {
+
+        const response = await fetch('https://sheetdb.io/api/v1/gmwbxrkiy1u5g', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+        });
+        
+    }
