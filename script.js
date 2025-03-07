@@ -20,5 +20,12 @@ document.getElementById('taskForm').addEventListener('submit', async function(e)
             },
             body: JSON.stringify(data)
         });
+
+        if (response.ok) {
+            alert('Tarefa adicionada com sucesso!');
+            document.getElementById('taskForm').reset();
+        } else {
+            alert('Erro ao adicionar tarefa.');
+        }
         
     }
