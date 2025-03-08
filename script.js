@@ -27,5 +27,8 @@ document.getElementById('taskForm').addEventListener('submit', async function(e)
         } else {
             alert('Erro ao adicionar tarefa.');
         }
-        
+
+    }   catch (error) {
+            alert('Erro ao conectar com a API.');
     }
+});
