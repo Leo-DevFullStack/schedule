@@ -1,3 +1,10 @@
+/*
+
+    Os dados capturados pelo formulário são salvos em:
+    https://docs.google.com/spreadsheets/d/1ykDu_EGt469j1H8q_KaKWDktxzHj9qWv1Wo1Qn7xdzQ/edit?gid=0#gid=0
+
+*/
+
 document.getElementById('tarefasFormulario').addEventListener('submit', async function(e) {
     e.preventDefault();
 
