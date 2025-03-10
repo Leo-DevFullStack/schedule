@@ -1,4 +1,4 @@
-document.getElementById('taskForm').addEventListener('submit', async function(e) {
+document.getElementById('tarefasFormulario').addEventListener('submit', async function(e) {
     e.preventDefault();
 
     const tarefa = document.getElementById('tarefa').value;
@@ -23,12 +23,13 @@ document.getElementById('taskForm').addEventListener('submit', async function(e)
 
         if (response.ok) {
             alert('Tarefa adicionada com sucesso!');
-            document.getElementById('taskForm').reset();
+            document.getElementById('tarefasFormulario').reset();
         } else {
             alert('Erro ao adicionar tarefa.');
         }
-        
+
     } catch (error) {
         alert('Erro ao conectar com a API.');
     }
+    
 });
